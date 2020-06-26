@@ -11,18 +11,18 @@ function func1() {
       
   var z;
    z  = (parseInt(x) + parseInt(y)) / 3 - (w);
-    console.log(z);
-
-  var m;
-  m = ("該当する金融機関はありませんでした。条件を変えて再度診断してください。");
-
+   
+   val = (z) ;
+   val = val|0 ;
+   console.log(val);
+    // var undefined = z;
 
     
-    var undefined = z;
+    
     var input_message = document.getElementById("input_message").value;
-    input_message = z ;
+    input_message = val;
     document.getElementById("output_message").innerHTML = input_message;
-    
+
     if ( z < 0) {
           var input_message = document.getElementById("input_message").value;
     input_message =("0") ;
