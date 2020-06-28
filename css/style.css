@@ -14,7 +14,7 @@ img {
 }
 
 .one .p {
-  margin-left: 20px;
+  margin-left: 60px;
   margin-top: 20px;
   background-color: green;
   width: 135px;
@@ -81,8 +81,8 @@ img {
 
 .two .p {
   display: inline-block;
-  margin-left: -425px;
-  margin-top: -120px;
+  margin-left:60px;
+  margin-top: -400px;
   background-color: green;
   width: 135px;
   color: white;
@@ -137,7 +137,7 @@ h5 {
 
 .select {
   display: block;
-  margin-top: -50px;
+  margin-top: -340px;
 }
 
 h6 {
@@ -220,7 +220,7 @@ script {
   #p {
     position: relative;
     text-align: right;
-    margin-top: -530px;
+    margin-top: -1130px;
     margin-left: auto;
     margin-right: 400px;
     font-size: 18px;
@@ -232,7 +232,7 @@ script {
   #output {
     position: relative;
     text-align: right;
-    margin-top: 100px;
+    margin-top: 80px;
     margin-left: auto;
     margin-right: 220px;
     font-size: 18px;
@@ -247,7 +247,7 @@ script {
     font-size: 60px;
     color: red;
     margin-left: auto;
-    margin-right: 300px;
+    margin-right: 250px;
     margin-top: -200px;
   }
   
@@ -268,7 +268,7 @@ script {
   }
   
   img {
-    position: relative;top: -300px;right: 200px;
+    position: relative;top: -900px;right: 200px;
     width: 400px;
   }
 
@@ -278,3 +278,284 @@ script {
     margin-left: 235px;
     font-weight: normal;
   }
+
+  @media(max-width: 1100px) {
+    
+    body {
+      /* display: block; */
+      margin: 0px;
+      padding: 0px;
+    }
+    
+    
+    .one .p {
+      margin-left: 5%;
+      margin-top: 23px;
+      margin-right: 0px;
+      background-color: green;
+      width: 15%;
+      color: white;
+      font-size: 9px;
+      height: 20px;
+      padding-top: 30px;
+      padding-left: 4%;
+      padding-right: 12px;
+      padding-bottom: 20px;
+    }
+    
+    .one .p2 {
+      margin: 0px;
+      margin-left: 5px;
+      margin-top: 20px;
+      font-size: 5px;
+    }
+    
+    .one .p3 {
+      margin: 0px;
+      margin-left: 5px;
+      font-size: 5px;
+    } 
+    
+    .one input {
+      margin: 0px;
+      margin-left: 5px;
+      margin-right: 20px;
+    }
+    
+    .one .input1 {
+      font-size: 20px;
+      text-align: right;
+      margin-bottom: 5px;
+      height: 15px;
+      width: 30%; 
+    }
+    
+    .one .input2 {
+      font-size: 20px;
+      text-align: right;
+      margin-bottom: 15px;
+      height: 15px;
+      width: 30%; 
+    }
+    
+    .one .input3 {
+      font-size: 20px;
+      text-align: right;
+      margin-bottom: 15px;
+      margin-top: 34px;
+      margin-left: -130px;
+      height: 15px;
+      width: 30%; 
+    }
+    
+    .two {
+      display: flex;
+      margin-top: 300px;
+    }
+    
+    .two .p {
+      margin-left: 5%;
+      margin-top: -380px;
+      background-color: green;
+      width: 18%;
+      color: white;
+      font-size: 6px;
+      height: 20px;
+      padding-top: 20px;
+      padding-left: 1%;
+      padding-right: 12px;
+    }
+    
+    .two .p1 {
+      display: none;
+      /* margin-left: -42px;
+      margin-top: -352px;
+      color: white; 
+      font-size: 1px; */
+    }
+    
+    .one .p5 {
+      display: none;
+      /* margin-top: 55px;
+      margin-left: -62px;
+      color: white;
+      font-size: 1px; */
+    }
+    
+    .one .p4 {
+      display: inline-block;
+      width: 130px;
+      margin: 0px;
+      margin-left: 5px;
+      margin-top: 15px;
+      font-size: 5px;
+    }
+    
+    .two select {
+      margin: 0px;
+      margin-left: 20px;
+      font-size: 19px;
+      height: 26px;
+      width: 45px;
+    }
+    
+    h5 {
+      font-weight: normal;
+      font-size: 15px;
+      margin: 0px;
+      margin-top: -270px;
+      margin-bottom: 10px;
+      margin-left: 0px;
+      color: #999999;
+    }
+    
+    .select select {
+      display: block;
+      margin-top: -355px;
+      margin-left: 5px;
+      height: 20px;
+      width: 40px;
+      font-size: 15px;
+    }
+    
+    h6 {
+      font-weight: normal;
+      font-size: 16px;
+      margin-top: 35px;
+    }
+    
+    
+    .btn2 {
+      position: relative;
+      top: 0;
+    }
+    
+    
+    .btn2 .btn {
+      color: white;
+      background-color: orange;
+      border-color: rgb(255, 166, 0);
+      width: 175px;
+      height: 45px;
+      font-size: 15px;
+      margin-top: 150px;
+      margin-left: -70px;
+      /* margin-bottom: 40px; */
+      position:absolute;
+      top:0;
+      left:0;
+    
+    }
+    
+    form .btn:hover {
+      background-color: rgba(255, 166, 0, .7);
+      border-color: rgba(255, 166, 0, .7);
+    }
+    
+    
+    script {
+      display: none;
+    }
+    
+    .box {
+      display: flex;
+    }
+    
+    
+      
+      
+      .color .color {
+        /* background-color: burlywood; */
+        width: 400px;
+        height: 150px;
+        padding-top: 30px; 
+        text-align: center;
+      }
+      
+      
+      
+      
+      .none input {
+        border: none;
+        display: block;
+        margin-left: 0px;
+        margin-top: -10px;
+        background-color: white;
+        color: rgba(255, 255, 255, .1);
+      }
+      
+      
+      /* .img p {
+        position: relative;
+        margin-left: 580px;
+        margin-top: 0px;
+        font-size: 20px;
+        font-weight: bold;
+      } */
+      
+      #p {
+        position: relative;
+        text-align: right;
+        margin-top: -530px;
+        margin-left: auto;
+        margin-right: 400px;
+        font-size: 18px;
+        width: 330px;
+        color: black;
+        font-weight: bold;
+      }
+      
+      #output {
+        position: relative;
+        text-align: left;
+        margin-top: 35px;
+        margin-left: auto;
+        margin-right: -130px;
+        font-size: 15px;
+        width: 250px;
+        color: black;
+        font-weight: bold;
+      }
+      
+      #output_message {
+        width: 200px;
+        position: relative;
+        font-size: 40px;
+        color: red;
+        margin-left: auto;
+        margin-right: -130px;
+        margin-top: -180px;
+      }
+      
+      
+      
+      h4 {
+        position: relative;
+        color: black;
+        margin-left: auto;
+        margin-right: -220px;
+        margin-top: 100px;
+        font-size: 20px;
+        padding-top: 60px;
+        width: 200px;
+        height: 120px;
+        font-weight: bold;
+        /* background-color: burlywood; */
+      }
+      
+      img {
+        position: relative;top: -250px;left: 130px;
+        width: 250px;
+      }
+    
+      .p7  {
+        font-size: 18px;
+        margin-top: -25px;
+        margin-left: 115px;
+        font-weight: normal;
+      }
+    
+
+
+
+  } 
